@@ -20,6 +20,6 @@ jobs:
         node-version: 20.x
         cache: 'npm'
     - name: Install npm and dependencies    
-      run: npm intsall
+      run: npm install
     - name: Execute unit tests
       run: npm run test:unit
